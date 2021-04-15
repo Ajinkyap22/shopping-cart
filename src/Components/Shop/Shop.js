@@ -53,7 +53,7 @@ function Shop(props) {
         </select>
       </div>
 
-      <Link to="/cart">
+      <Link to="/shopping-cart/cart">
         <button className="sticky">
           <i className="fa fa-shopping-cart" aria-hidden="true">
             &nbsp;{props.cart.length}

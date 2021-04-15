@@ -64,7 +64,7 @@ function ShoppingCart(props) {
         <div className={checkout ? "modal" : "modal hidden"}>
           <h2>Thanks for shopping!</h2>
           <p>Item purchased successfully.</p>
-          <Link to="/shop">
+          <Link to="/shopping-cart/shop">
             <button className="btn" onClick={clearCart}>
               Go Back Shopping
             </button>
@@ -77,7 +77,7 @@ function ShoppingCart(props) {
     return (
       <div className="empty">
         <p>Your Shopping Cart is empty, lets add some items to it!</p>
-        <Link to="/shop">
+        <Link to="/shopping-cart/shop">
           <button className="btn">Shop</button>
         </Link>
       </div>

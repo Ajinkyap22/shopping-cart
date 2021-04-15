@@ -8,7 +8,7 @@ function Home() {
         <h1>Welcome To Fashion Factory</h1>
         <p>We'll help you catch up with today's fashion trends!</p>
       </div>
-      <Link to="/shop">
+      <Link to="/shopping-cart/shop">
         <div className="shopping">Start Shopping!</div>
       </Link>
     </div>

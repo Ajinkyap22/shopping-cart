@@ -35,6 +35,7 @@ function App() {
         <Switch>
           <Route exact path="/shopping-cart/" component={Home} />
           <Route
+            exact
             path="/shopping-cart/shop"
             render={() => (
               <div>
@@ -53,6 +54,7 @@ function App() {
             )}
           />
           <Route
+            exact
             path="/shopping-cart/cart"
             render={() => <Cart cart={cart} setCart={setCart} />}
           />
