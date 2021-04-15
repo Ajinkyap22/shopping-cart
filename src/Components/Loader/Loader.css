@@ -1,0 +1,26 @@
+.loader {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -30vh);
+  z-index: 2;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.loader img {
+  height: 100px;
+  padding: 10px;
+  object-fit: cover;
+  animation: load 3s linear infinite;
+}
+
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
