@@ -27,6 +27,8 @@ function Shop(props) {
         (item) => item.category === e.target.value
       );
 
+      console.log(props.allItems);
+
       setItems(filtered);
     }
   }
@@ -45,10 +47,10 @@ function Shop(props) {
     <div>
       <div className="header">
         <h1>Shop</h1>
-        <select class="categories" onChange={filter}>
+        <select className="categories" onChange={filter}>
           <option value="all">All</option>
-          <option value="men clothing">Men Clothing</option>
-          <option value="women clothing">Women Clothing</option>
+          <option value="men's clothing">Men's Clothing</option>
+          <option value="women's clothing">Women's Clothing</option>
           <option value="jewelery">Jewelery</option>
         </select>
       </div>
