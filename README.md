@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-- [Preview Link](#preview-link)
+- [Live Demo](#live-demo)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Features](#features)
@@ -12,7 +12,7 @@
 - [Inspiration](#inspiration)
 - [Contact](#contact)
 
-## Preview Link
+## Live Demo
 
 [Shopping Cart](https://ajinkyap22.github.io/shopping-cart/)
 
